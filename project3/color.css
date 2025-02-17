@@ -1,0 +1,47 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#todoInput {
+    width: 70%;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+#addBtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: #45a049;
+}
+
+ol {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+li.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
